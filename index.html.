@@ -8,38 +8,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
-        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
         .hero-bg { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-900">
+<body class="bg-slate-50">
 
-    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 py-4 px-6 text-center">
+    <nav class="bg-white border-b py-4 px-6 text-center">
         <h1 class="text-xl font-bold tracking-tight">CLARITY<span class="text-blue-600">VISION</span></h1>
     </nav>
 
-    <section class="pt-32 pb-20 px-6 hero-bg text-white text-center">
-        <span class="text-blue-400 font-bold uppercase tracking-widest text-xs">A. S. Rao Nagar, Secunderabad</span>
-        <h2 class="mt-6 text-4xl font-bold leading-tight">Clear Vision. <br>Premium Style.</h2>
-        <div class="mt-10 flex flex-col gap-4">
-            <a href="tel:+919966568927" class="bg-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg">Call Store: 99665 68927</a>
-            <a href="https://wa.me/919966568927" class="bg-[#25D366] text-white px-8 py-4 rounded-2xl font-bold text-lg flex items-center justify-center gap-2">
-                <i class="fab fa-whatsapp"></i> WhatsApp Us
+    <section class="py-12 px-6 hero-bg text-white text-center">
+        <h2 class="text-3xl font-bold leading-tight">Clarity Vision Optical</h2>
+        <p class="mt-2 text-blue-400 font-semibold text-sm">A. S. Rao Nagar, Secunderabad</p>
+        <div class="mt-8 flex flex-col gap-3">
+            <a href="tel:+919966568927" class="bg-blue-600 p-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2">
+                <i class="fas fa-phone"></i> Call: 99665 68927
             </a>
-            <a href="https://maps.app.goo.gl/uXvF49XpQf3kX4P6A" class="bg-white text-slate-900 px-8 py-4 rounded-2xl font-bold text-lg">Get Directions</a>
+            <a href="https://wa.me/919966568927" class="bg-[#25D366] p-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2">
+                <i class="fab fa-whatsapp text-xl"></i> WhatsApp Us
+            </a>
+            <a href="https://maps.app.goo.gl/uXpLg2m9mC3x4pXp9" class="bg-white text-slate-900 p-4 rounded-xl font-bold text-lg border border-slate-300 flex items-center justify-center gap-2 shadow-sm">
+                <i class="fas fa-directions text-blue-600"></i> Get Shop Directions
+            </a>
         </div>
     </section>
 
-    <section class="py-16 px-6">
-        <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 mb-6 text-center">
-            <h3 class="font-bold text-xl mb-4 text-blue-600">Visit Our Store</h3>
-            <p class="text-slate-700 font-semibold">G.K, RK Puram Rd, near Honda Showroom,</p>
-            <p class="text-slate-600">Gandhi Nagar, AVM Residency,</p>
-            <p class="text-slate-600">A. S. Rao Nagar, Secunderabad</p>
-            <p class="mt-6 font-bold text-slate-900">Open Daily: 9:30 AM — 9:30 PM</p>
-        </div>
-    </section>
-
-</body>
-  </html>
-  
+    <section class="py-10 px-6">
+        <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-200">
+            <h3 class="text-slate-800 font-bold text-lg mb-2">Visit Our Store</h3>
+            <p class="text-slate-600 leading-relaxed text-sm">
+                G.K, RK Puram Rd, near Honda Showroom,<br>
+                beside Bus Stop, Gandhi Nagar, AVM Residency,<br
