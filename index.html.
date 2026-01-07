@@ -3,40 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clarity Vision | A. S. Rao Nagar</title>
+    <title>Clarity Vision | Premium Optical A.S. Rao Nagar</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
-        body { font-family: 'Plus Jakarta Sans', sans-serif; }
-        .hero-bg { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .hero-gradient { background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url('https://images.unsplash.com/photo-1574258495973-f010dfbb5371?q=80&w=2070&auto=format&fit=crop'); background-size: cover; background-position: center; }
+        .glass-card { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border: 1px solid rgba(226, 232, 240, 1); }
     </style>
 </head>
-<body class="bg-slate-50">
+<body class="bg-slate-50 text-slate-900">
 
-    <nav class="bg-white border-b py-4 px-6 text-center">
-        <h1 class="text-xl font-bold tracking-tight">CLARITY<span class="text-blue-600">VISION</span></h1>
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 py-4 px-6">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-tighter">CLARITY<span class="text-blue-600">VISION</span></h1>
+            <a href="tel:+919966568927" class="bg-slate-900 text-white px-5 py-2 rounded-full text-sm font-bold shadow-lg hover:bg-blue-600 transition-all">CALL NOW</a>
+        </div>
     </nav>
 
-    <section class="py-12 px-6 hero-bg text-white text-center">
-        <h2 class="text-3xl font-bold leading-tight">Clarity Vision Optical</h2>
-        <p class="mt-2 text-blue-400 font-semibold text-sm">A. S. Rao Nagar, Secunderabad</p>
-        <div class="mt-8 flex flex-col gap-3">
-            <a href="tel:+919966568927" class="bg-blue-600 p-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2">
-                <i class="fas fa-phone"></i> Call: 99665 68927
-            </a>
-            <a href="https://wa.me/919966568927" class="bg-[#25D366] p-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2">
-                <i class="fab fa-whatsapp text-xl"></i> WhatsApp Us
-            </a>
-            <a href="https://maps.app.goo.gl/uXpLg2m9mC3x4pXp9" class="bg-white text-slate-900 p-4 rounded-xl font-bold text-lg border border-slate-300 flex items-center justify-center gap-2 shadow-sm">
-                <i class="fas fa-directions text-blue-600"></i> Get Shop Directions
-            </a>
-        </div>
-    </section>
-
-    <section class="py-10 px-6">
-        <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-200">
-            <h3 class="text-slate-800 font-bold text-lg mb-2">Visit Our Store</h3>
-            <p class="text-slate-600 leading-relaxed text-sm">
-                G.K, RK Puram Rd, near Honda Showroom,<br>
-                beside Bus Stop, Gandhi Nagar, AVM Residency,<br
+    <section class="pt-40 pb-24 px-6 hero-gradient text-white">
+        <div class="max-w-5xl mx-auto text-center">
+            <span class="bg-blue-600/20 text-blue-400 border border-blue-500/30 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">A.S. Rao Nagar's Leading Optical</span>
+            <h2 class="mt-8 text-5xl md:text-7xl font-bold leading-tight">Expert Eye Care. <br><span class="text-blue-400">Luxury Eyewear.</span></h2>
+            <p class="mt
