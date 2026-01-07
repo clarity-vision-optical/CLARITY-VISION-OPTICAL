@@ -3,93 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clarity Vision | Md. Hamed</title>
+    <title>Clarity Vision | Sales & Service Boutique</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
-        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
-        .hero-gradient { background: radial-gradient(circle at top right, #1e293b, #0f172a); }
-        .glass-nav { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(12px); }
-        .action-card { transition: all 0.3s ease; border: 1px solid #e2e8f0; }
-        .action-card:hover { transform: translateY(-5px); border-color: #3b82f6; box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.1); }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Lexend+Deca:wght@300;600;800&display=swap');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; background-color: #ffffff; }
+        h1, h2, h3, .nav-link { font-family: 'Lexend Deca', sans-serif; }
+        .glass-header { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(20px); }
+        .posh-shadow { box-shadow: 0 20px 50px rgba(0,0,0,0.05); }
+        .service-card { transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+        .service-card:hover { transform: translateY(-10px); background: #f8fafc; }
     </style>
 </head>
-<body class="bg-white text-slate-900 overflow-x-hidden">
+<body class="text-slate-900 overflow-x-hidden">
 
-    <nav class="fixed top-0 w-full z-50 glass-nav border-b py-4 px-6 flex justify-between items-center">
+    <nav class="fixed top-0 w-full z-50 glass-header border-b border-slate-100 py-5 px-6 flex justify-between items-center">
         <div class="flex flex-col">
-            <h1 class="text-xl font-extrabold tracking-tighter uppercase leading-none">CLARITY<span class="text-blue-600">VISION</span></h1>
-            <span class="text-[8px] font-bold tracking-[0.2em] text-slate-500 uppercase mt-1">A.S. Rao Nagar</span>
+            <h1 class="text-xl font-extrabold tracking-tighter text-slate-900 uppercase leading-none">CLARITY<span class="text-blue-600">VISION</span></h1>
+            <span class="text-[9px] font-bold tracking-widest text-slate-400 uppercase mt-1">Official Flagship Store</span>
         </div>
-        <a href="tel:+919966568927" class="bg-slate-900 text-white px-5 py-2 rounded-full text-xs font-bold hover:bg-blue-600 transition-all">CALL NOW</a>
+        <div class="flex items-center gap-4">
+            <a href="tel:+919966568927" class="bg-slate-900 text-white px-6 py-2.5 rounded-full text-[11px] font-bold tracking-tighter hover:bg-blue-600 transition-all">CONNECT</a>
+        </div>
     </nav>
 
-    <section class="pt-32 pb-20 px-6 hero-gradient text-white">
-        <div class="max-w-xl mx-auto text-center" data-aos="fade-up" data-aos-duration="1000">
-            <div class="inline-block bg-blue-500/10 border border-blue-500/20 text-blue-400 px-4 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest mb-6">
-                Proprietor: Md. Hamed
+    <section class="pt-40 pb-20 px-8 text-center bg-slate-50">
+        <div data-aos="fade-up" data-aos-duration="1000">
+            <p class="text-blue-600 font-bold uppercase tracking-[0.3em] text-[10px] mb-5">Sales & Precision Service</p>
+            <h2 class="text-5xl md:text-6xl font-extrabold text-slate-900 mb-8 tracking-tighter leading-tight">Mastering Sight.<br>Curating <span class="text-slate-400 font-light">Style.</span></h2>
+            <p class="text-slate-500 max-w-lg mx-auto mb-12 text-sm leading-relaxed">
+                Directed by <b>Md. Hamed</b>, Clarity Vision provides Secunderabad with an elite range of international eyewear and medical-grade computerized testing.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4 max-w-md mx-auto">
+                <a href="tel:+919966568927" class="bg-slate-900 text-white py-4 px-8 rounded-2xl font-bold flex items-center justify-center gap-3 posh-shadow hover:scale-105 transition-all">
+                    <i class="fas fa-phone-alt text-xs"></i> 99665 68927
+                </a>
+                <a href="https://wa.me/919966568927" class="bg-white border border-slate-200 text-slate-900 py-4 px-8 rounded-2xl font-bold flex items-center justify-center gap-3 hover:bg-slate-50 transition-all">
+                    <i class="fab fa-whatsapp text-xl text-emerald-500"></i> WhatsApp Us
+                </a>
             </div>
-            <h2 class="text-5xl font-extrabold mb-6 leading-[1.1] tracking-tight">Luxury Eyewear. <br><span class="text-blue-400 text-4xl">Digital Precision.</span></h2>
-            <p class="text-slate-400 mb-10 text-sm leading-relaxed max-w-sm mx-auto">Visit Secunderabad's premier optical destination for computerized testing and international frame collections.</p>
+        </div>
+    </section>
+
+    <section class="py-24 px-8 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="mb-16">
+                <h3 class="text-3xl font-extrabold tracking-tighter text-slate-900" data-aos="fade-right">The Boutique Services</h3>
+                <p class="text-slate-400 text-sm mt-2">Professional Eye Care for the modern individual.</p>
+            </div>
             
-            <div class="flex flex-col gap-4 max-w-xs mx-auto">
-                <a href="tel:+919966568927" class="bg-blue-600 py-4 rounded-2xl font-bold text-lg flex items-center justify-center gap-3 shadow-xl shadow-blue-900/20 active:scale-95 transition-all">
-                    <i class="fas fa-phone-alt text-sm"></i> 99665 68927
-                </a>
-                <a href="https://wa.me/919966568927" class="bg-[#25D366] py-4 rounded-2xl font-bold text-lg flex items-center justify-center gap-3 shadow-lg active:scale-95 transition-all">
-                    <i class="fab fa-whatsapp text-2xl"></i> WhatsApp Us
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-20 px-6 bg-slate-50">
-        <div class="max-w-xl mx-auto">
-            <h3 class="text-2xl font-extrabold mb-10 text-slate-900" data-aos="fade-right">Our Excellence</h3>
-            <div class="grid gap-4">
-                <div class="action-card bg-white p-6 rounded-3xl flex gap-5 items-start" data-aos="fade-up">
-                    <div class="bg-blue-50 text-blue-600 w-12 h-12 rounded-2xl flex items-center justify-center shrink-0"><i class="fas fa-microchip"></i></div>
-                    <div>
-                        <h4 class="font-bold text-slate-900">Digital Eye Testing</h4>
-                        <p class="text-xs text-slate-500 mt-1">Advanced computerized diagnosis for perfect visual clarity.</p>
-                    </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="service-card p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100" data-aos="fade-up">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-blue-600 mb-8 posh-shadow"><i class="fas fa-shopping-bag"></i></div>
+                    <h4 class="text-lg font-bold mb-4">Luxury Sales</h4>
+                    <p class="text-slate-500 text-xs leading-relaxed">Exclusive access to global eyewear brands, from timeless classics to modern high-fashion frames.</p>
                 </div>
-                <div class="action-card bg-white p-6 rounded-3xl flex gap-5 items-start" data-aos="fade-up" data-aos-delay="100">
-                    <div class="bg-indigo-50 text-indigo-600 w-12 h-12 rounded-2xl flex items-center justify-center shrink-0"><i class="fas fa-crown"></i></div>
-                    <div>
-                        <h4 class="font-bold text-slate-900">Premium Collections</h4>
-                        <p class="text-xs text-slate-500 mt-1">Curated international frames for every style and personality.</p>
-                    </div>
+                <div class="service-card p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-blue-600 mb-8 posh-shadow"><i class="fas fa-microscope"></i></div>
+                    <h4 class="text-lg font-bold mb-4">Precision Testing</h4>
+                    <p class="text-slate-500 text-xs leading-relaxed">Full computerized diagnostic testing performed with 100% digital accuracy for perfect vision.</p>
+                </div>
+                <div class="service-card p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-blue-600 mb-8 posh-shadow"><i class="fas fa-tools"></i></div>
+                    <h4 class="text-lg font-bold mb-4">Expert Repair</h4>
+                    <p class="text-slate-500 text-xs leading-relaxed">Advanced frame servicing, lens replacement, and technical adjustments for a bespoke fit.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-20 px-6">
-        <div class="bg-slate-900 rounded-[2.5rem] p-8 text-white relative overflow-hidden" data-aos="zoom-in">
-            <div class="relative z-10">
-                <h3 class="text-2xl font-extrabold mb-4 leading-tight">Visit Us in <br>A.S. Rao Nagar</h3>
-                <p class="text-slate-400 text-sm mb-8 leading-relaxed">G.K, RK Puram Rd, near Honda Showroom, beside Bus Stop, Gandhi Nagar, A. S. Rao Nagar, Secunderabad, 500056</p>
-                
-                <a href="https://www.google.com/maps/search/?api=1&query=Clarity+Vision+Optical+A.S.+Rao+Nagar+Secunderabad" target="_blank" class="bg-white text-slate-900 py-4 rounded-2xl font-bold text-center block w-full hover:bg-blue-50 transition-all">
-                    <i class="fas fa-directions text-red-500 mr-2"></i> Get GPS Directions
-                </a>
+    <section class="py-24 px-8 bg-slate-900 text-white">
+        <div class="max-w-4xl mx-auto flex flex-col items-center text-center" data-aos="zoom-in">
+            <h3 class="text-4xl font-extrabold tracking-tighter mb-6">Experience the Flagship</h3>
+            <p class="text-slate-400 max-w-md mb-12 text-sm leading-relaxed">
+                Located in the heart of Secunderabad, our A.S. Rao Nagar store is designed for a premium, hassle-free experience.
+            </p>
+            
+            <a href="https://www.google.com/maps/search/?api=1&query=Clarity+Vision+Optical+AS+Rao+Nagar+Secunderabad" target="_blank" class="bg-blue-600 text-white px-10 py-5 rounded-full font-bold text-sm tracking-widest hover:bg-blue-500 transition-all flex items-center gap-3 posh-shadow">
+                <i class="fas fa-location-arrow"></i> NAVIGATE TO STORE
+            </a>
+
+            <div class="mt-16 pt-12 border-t border-white/5 w-full">
+                <p class="text-slate-500 font-bold uppercase tracking-[0.4em] text-[9px]">G.K, RK Puram Rd, near Honda Showroom, A. S. Rao Nagar</p>
             </div>
-            <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-blue-600/20 rounded-full blur-3xl"></div>
         </div>
     </section>
 
-    <footer class="py-12 px-6 text-center border-t border-slate-100">
-        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em]">Clarity Vision • Md. Hamed</p>
-        <p class="text-[9px] text-slate-400 mt-4 leading-relaxed">Open Daily: 09:30 AM — 09:30 PM <br> A.S. Rao Nagar, Secunderabad</p>
+    <footer class="py-12 text-center text-slate-300 text-[10px] tracking-[0.2em] uppercase font-semibold">
+        Proprietor: Md. Hamed • Sales & Service Excellence
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init({ duration: 800, once: true, easing: 'ease-out-quad' });
+        AOS.init({ duration: 1000, once: true });
     </script>
 </body>
-</html>
-
+    </html>
+    
